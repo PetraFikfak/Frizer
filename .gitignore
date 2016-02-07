@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+			<meta name="description" content="moja prva spletna stran">
+			<title>Frizerski salon</title>
+
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="main.css">
+		</head>
+		
+		<body>
+		<div class="nav">
+			<div class="container">
+				<ul class="pull-left">
+					<li>Hairdresser Mirko</li>
+				</ul>
+	
+				<ul class="pull-right">
+					<li><a href="#">Kaj nudimo</a></li>
+					<li><a href="#">Naroči se</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">O nas</a></li>
+					<li><input type="text" id="search" placeholder="Iskalnik"></li>
+				</ul>
+			</div>
+			
+			<div>
+				<img src="http://www.elosinj.info/stil/425/57336062.jpg"/>
+			</div>
+			
+			<div class="kaj-nudimo">
+				<div class="container">
+					<h2>Kaj nudimo</h2>
+				</div>
+			
+			<div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+						<button type="button" class="btn btn-default btn-lg">
+							<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span> Nega
+						</button>
+						<h3>Nega</h3>
+						<img src="http://hairdressersalonandscalpcarelehighvalley.com/wp-content/uploads/2013/05/iStock_000011059236XSmall.jpg"/>	
+                    </div>
+				</div>
+				
+				<div class="col-md-4">
+                    <div class="thumbnail">
+						<button type="button" class="btn btn-default btn-lg">
+							<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span> Barvanje
+						</button>
+						<h3>Barvanje</h3>
+						<img src="http://www.newfashion.us/wp-content/uploads/2014/01/Multi-Color-Hair-Fashion-Style.jpg"/>	
+                    </div>
+				</div>
+				
+				<div class="col-md-4">
+                    <div class="thumbnail">
+						<button type="button" class="btn btn-default btn-lg">
+							<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span> Striženje
+						</button>
+						<h3>Striženje</h3>
+						<img src="https://c2.staticflickr.com/6/5161/5250916596_5a15b45d36_b.jpg"/>							
+                    </div>
+				</div>
+			</div><!--class row ends here-->
+			</div><!--class kaj nudimo ends here-->
+			
+			<div class="naroci se">
+				<div id="container">
+					<h2>Naroči se</h2>
+				</div>
+				
+				<div id="leftmenu">
+					<form method="post" action="somescript.php">
+						<ul>
+							<li><input type="text" id="search" placeholder="Ime in priimek:"><li>
+							<li><input type="text" id="search" placeholder="Tel. številka:"><li>
+							<li><input type="text" id="search" placeholder="Termin:"><li>
+							<li><input type="text" id="search" placeholder="Ostalo (želje glede pričeske itd.):"><li>
+						</ul>
+					</form>
+					
+					<div id="leftmenu-bottom">
+						<form method="post" action="somescript.php">	
+							<div>
+								<label><input type="checkbox"/> Strinjam se, da je Mirko najboljši frizer.</label>
+							</div>
+							
+							<div class="buttonHolder">
+								<input value="Pošlji" name="lucky" type="submit" id="btn_i">
+							</div>
+						</form>	
+					</div><!--leftmenu-bootom ends here-->
+				</div><!--leftmenu ends here-->
+			
+				<div id="rightmenu">
+					<table>
+						<tr>
+							<th>Dan</th>
+							<th>Delovne ure</th>
+						</tr>
+						<tr>
+							<td>Ponedeljek</td>
+							<td>8.00-16.00</td>
+						</tr>
+						<tr>
+							<td>Torek</td>
+							<td>10.00-18.00</td>
+						</tr>
+						<tr>
+							<td>Sreda</td>
+							<td>8.00-16.00</td>
+						</tr>
+						<tr>
+							<td>Četrtek</td>
+							<td>8.00-16.00</td>
+						</tr>
+						<tr>
+							<td>Petek</td>
+							<td>12.00-20.00</td>
+						</tr>
+						<tr>
+							<td>Sobota</td>
+							<td>8.00-16.00</td>
+						</tr>
+						<tr>
+							<td>Nedelja</td>
+							<td>8.00-12.00</td>
+						</tr>					
+					</table>
+					<div>
+						<p>* Ob praznikih velja nedeljski urnik.</p>
+					</div>
+				</div><!--righgtmenu ends here-->
+			</div><!--naroci se ends here-->
+			
+			<div class="FAQ (pogosta vprašanja)">
+				<h2>FAQ (pogosta vprašanja)</h2>
+				
+				<div class="boxed">
+					<p>Kakšen je salon in ekipa?</p>		
+				</div>
+
+				<div class="boxed">
+					<p>Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.</p>
+					<p>Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje s profesionalno lasno kozmetiko Schwarzkopf, v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o. smo letos septembra začeli delati s profesionalno lasno kozmetiko Indola, katero oni disribuirajo.</p>
+				</div>
+				
+				<br></br>
+				
+				<div class="boxed">
+					<p>Ali sprejemate hišne ljubljenčke?</p>
+				</div>
+				
+				<br></br>
+				
+				<div class="boxed">
+					<p>Imate kakšne nagrade s tekmovanj?</p>
+				</div>	
+			</div><!--FAQ (pogosta vprašanja) ends here-->
+			
+			<div><!--kontaktni podatki-->
+				<div id="content" class="kontakt">			
+					<div class="kontakt">
+						<ul>
+							<li><h3>Kontakt</h3></li>
+							<li>Frizer Mirko s.p.</li>
+							<li>Davčna št.: 3243244234</li>
+							<li>Frizerska ulica 5, 1000 Ljubljana</li>
+							<li>Tel.: 01/345435346</li>
+							<li>Email: frizer.mirko@f-mirko.com</li>
+						<ul>
+					</div>
+					
+					<div class="kontakt">
+						<img src="http://www.elosinj.info/stil/425/57336062.jpg"/>
+					</div>
+					
+					<div class="kontakt">
+						<ul>
+							<li><h3>Navigacija</h3></li>
+							<li><a href="#">Kaj nudimo</a></li>
+							<li><a href="#">Naroči se</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">O nas</a></li>
+						</ul>
+					</div>	
+				</div>
+			</div><!--kontaktni podatki ends here-->
+		</body>	
+	</html>
+	
